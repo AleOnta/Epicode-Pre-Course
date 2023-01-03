@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding: 2.5em;
+}
+
+.sidebar_icon ion-icon {
+  font-size: 1.5em;
+}
+
+.sidebar_icon p {
+  margin: 0;
+}
+
+#main {
+  width: 100%;
+}
+
+#topbar {
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#topbar ion-icon {
+  cursor: pointer;
+}
+
+#logo {
+  height: 50%;
+  cursor: pointer;
+}
+
+#search_wrapper {
+  display: flex;
+  height: 50%;
+}
+
+#search_wrapper input {
+  width: 400px;
+  height: 30px;
+}
+
+#search_wrapper button {
+  height: 36px;
+  width: 35px;
+}
+
+#search_icon ion-icon {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+#mic_icon ion-icon {
+  font-size: 1.7em;
+  padding-bottom: 3px;
+}
+
+#mic_icon {
+  margin: 0 0.5em;
+  display: flex;
+  align-items: center;
+}
+
+#icons_wrapper {
+  display: flex;
+}
+
+.wrapped_icon {
+  font-size: 2em;
+  padding: 0 0.3em;
+}
+
+#content {
+  height: 88vh;
+  margin-top: 4vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.video {
+  margin: 0;
+  padding: 0;
+}
+
+.video_info {
+  display: flex;
+}
+
+.thumbnail > img {
+  width: 500px;
+}
+
+.video_info > img {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.video_captions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.video_captions > h1,
+p {
+  margin: 0;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.video_captions > h1 {
+  font-size: 1.3em;
+}
+
+.video_captions > p {
+  font-size: 0.7em;
+}
+
+.thumb {
+  cursor: pointer;
+}

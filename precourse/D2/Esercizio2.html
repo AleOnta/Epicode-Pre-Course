@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-corso #2 HTML</title>
+
+    <style>
+        form > div{
+            border: 1px solid black;
+            border-style: dotted;
+        }
+    </style>
+</head>
+<body style="background-color: #add8e6;">
+    <div style="width: 100%; height: 100%;">
+        <header>
+            <img src="./Ontafy.png" alt="logo del sito streaming" style="width: 200px; height: auto; border-radius: 30px;">
+            <h3 style="margin-left: 15px; margin-top: 0;">Benvenuto su Ontafy!</h3>
+        </header>
+    
+        <main>
+            <p style="margin-top: 50px; font-size: 25px;">Registrati per poter iniziare ad ascoltare la musica che ami:</p>
+            <form onsubmit="alert('Iscrizione effettuata con successo!')">
+                <div style="width: 15%; height: auto; padding-bottom: 25px; padding-left: 10px;">
+                    <h4 style="margin-bottom: 10px;">Dati personali:</h4>
+                    <div>
+                        <input type="text" name="first_name" placeholder="Nome" style="margin: 2px 0;">
+                    </div>
+                    <div>
+                        <input type="text" name="last_name" placeholder="Cognome" style="margin: 2px 0;">
+                    </div>
+                    <div>
+                        <input type="email" name="@address" placeholder="Em@il" style="margin: 2px 0;">
+                    </div>
+                    <div>
+                        <input type="password" name="password" placeholder="Password" style="margin: 2px 0;">
+                    </div>
+                    <div>
+                        <span>Inserisci la tua data di nascita: <br></span>
+                        <input type="date" name="birth_date" style="margin-top: 5px; margin-bottom: 2px;">
+                    </div>
+                    <div>
+                        <input type="number" name="Ph_number" placeholder="Cellulare" style="margin: 2px 0;">
+                    </div>
+                </div>
+                <div style="margin-top: 10px; width: 16%; height: auto; padding-bottom: 25px; padding-left: 10px;">
+                    <h4 style="margin-bottom: 10px;"">Preferenze genere:</h4>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="checkbox">
+                                <span>Rock</span>
+                            </td>
+                            <td>
+                                <input type="checkbox">
+                                <span>Jazz</span>
+                            </td>
+                            <td>
+                                <input type="checkbox">
+                                <span>Blues</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox">
+                                <span>EDM</span>
+                            </td>
+                            <td>
+                                <input type="checkbox">
+                                <span>Techno</span>
+                            </td>
+                            <td>
+                                <input type="checkbox">
+                                <span>Hardcore</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox">
+                                <span>Rap</span>
+                            </td>
+                            <td>
+                                <input type="checkbox">
+                                <span>Country</span>
+                            </td>
+                            <td>
+                                <input type="checkbox">
+                                <span>None</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <input type="radio" style="margin-top: 35px;">
+                <span><em>*Accetto termini e condizioni</em></span>
+                <a href="www.google.com">qui</a><br>
+                <input type="submit" value="Invia Registrazione" style="margin-top: 5px;">
+            </form>
+        </main>
+        
+        <footer >
+            <div style="text-align: center; margin-top: 160px;">
+                <hr>
+                <span>| Ontify S.R.L. </span>
+                <span>- info@ontafy.com </span>
+                <span> - </span>
+                <a href="">Github</a>
+                <span> - </span>
+                <a href="">Linkedin</a>
+                <span> | </span>
+            </div>
+        </footer>
+        </div>
+    </body>
+</html>

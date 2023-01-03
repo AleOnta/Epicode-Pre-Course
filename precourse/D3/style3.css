@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", serif;
+}
+
+.main_section {
+  padding: 20px;
+}
+
+.image_container {
+  height: 500px;
+  background-size: cover;
+}
+
+.image_container.homepage {
+  background-image: url(./img/DJI_0712-2.jpg);
+}
+
+.image_container.lanzada {
+  background-image: url(./img/lanzada.jpg);
+}
+
+.image_container.palù {
+  background-image: url(./img/lagopalu.jpg);
+}
+
+.image_container.lagazzuolo {
+  background-image: url(./img/lagazzuolo.jpg);
+}
+
+.image_container.chiareggio {
+  background-image: url(./img/chiareggio.jpg);
+}
+
+.image_container.chiesainvalmalenco {
+  background-image: url(./img/chiesainvalmalenco.jpg);
+}
+
+#title {
+  font-size: 64px;
+  font-weight: 400;
+  font-family: "Prata", serif;
+}
+
+#subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Prata", serif;
+  margin-top: 0;
+}
+
+#title,
+#subtitle {
+  margin-bottom: 0;
+}
+
+#credits {
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: none;
+}
+
+#adviser {
+  padding: 22px;
+  margin-bottom: 0;
+  margin-top: 56px;
+  color: white;
+  border-radius: 6px;
+  background: linear-gradient(95deg, rgb(119, 112, 99), lightblue);
+}
+
+#adviser_lanzada {
+  padding: 22px;
+  margin-bottom: 0;
+  margin-top: 56px;
+  color: white;
+  border-radius: 6px;
+  background: linear-gradient(95deg, rgb(119, 112, 99), rgb(93, 155, 93));
+}
+
+#adviser_lagazzuolo {
+  padding: 22px;
+  margin-bottom: 0;
+  margin-top: 56px;
+  color: white;
+  border-radius: 6px;
+  background: linear-gradient(95deg, rgb(93, 155, 93), rgb(145, 205, 255));
+}
+
+#adviser_chiareggio {
+  padding: 22px;
+  margin-bottom: 0;
+  margin-top: 56px;
+  color: white;
+  border-radius: 6px;
+  background: linear-gradient(95deg, rgb(145, 205, 255), lightgrey);
+}
+
+#list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.element {
+  padding: 6px 0px 6px 22px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(119, 112, 99);
+  border-bottom: 2px solid #dfdfdf;
+  font-weight: 700;
+}
+
+.foot {
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 0;
+  font-size: 13px;
+}
+
+#adv {
+  font-size: 10px;
+  font-weight: 600;
+  color: blueviolet;
+}
+
+a {
+  color: blueviolet;
+}
+
+.homepage {
+  padding-top: 25px;
+}
